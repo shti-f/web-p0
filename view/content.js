@@ -5,7 +5,7 @@ module.exports = function(state, emit){
   return html`
     <body class="root">
       ${header()}
-      <div class="content">this is content</div>
+      <div class="content">this is centerized content</div>
     </body>
   `
 }
