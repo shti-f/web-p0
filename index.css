@@ -34,7 +34,7 @@ html {
 .contentWrapper {
   padding-top: 2.5rem;
   min-height: calc(100% - 14.5rem); /* header,footer,自分のheight,paddingの合計 */
-  background-color: silver;
+  /* background-color: silver; */
 }
 
 .footer {
