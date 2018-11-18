@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+.root {
+  margin: 0rem;
+  height: 100%;
+}
+.header {
+  position: fixed;
+  height: 2.5rem;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.header .menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.6rem;
+}
+
+.header .menu .menuTab {
+  height: 1rem;
+  width: 8rem;
+  text-align: center;
+}
+
+.header .menu .menuTab a {
+  text-decoration: none;
+  color: white;
+}
+
+.contentWrapper {
+  padding-top: 2.5rem;
+  min-height: calc(100% - 14.5rem); /* header,footer,自分のheight,paddingの合計 */
+  background-color: silver;
+}
+
+.footer {
+  padding-top: 6rem;
+  height: 6rem;
+  width: 100%;
+  background-color: #222;
+  color: #888;
+  text-align: center;
+}

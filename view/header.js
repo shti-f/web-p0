@@ -3,8 +3,12 @@ const html = require('choo/html')
 module.exports = function header(state, emit){
   return html`
     <div class='header'>
-      <div class='link'><a href='/'>to index</a></div>
-      <div class='link'><a href='/content'>to content</a></div>
+      <div class="menu">
+        <div class='menuTab'><a href='/'>Top</a></div>
+        <div class='menuTab'><a href='/about'>About</a></div>
+        <div class='menuTab'><a href='/content'>Content</a></div>
+        <div class='menuTab'><a href='/contact'>Contact</a></div>
+      </div>
     </div>
   `
 }

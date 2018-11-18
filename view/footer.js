@@ -5,6 +5,6 @@ const html = require('choo/html')
 
 module.exports = function footer(state, emit){
   return html`
-    <div class='footer'>footer</div>
+    <div class='footer'>Copyright (c) 2018 shti-f</div>
   `
 }
