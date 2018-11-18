@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "acorn": "^6.0.4",
     "budo": "^11.5.0",
     "bundle-collapser": "^1.2.1",
     "choo": "^5.1.4",
